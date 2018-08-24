@@ -1,0 +1,32 @@
+<?php if ($this->UIkit_container): ?>
+    <div class="uk-margin-medium-top  <?= $this->UIkit_container; ?>">
+<?php endif; ?>
+    <div class="uk-panel">
+<?php if ($this->fontAwesome_icon): ?>
+    <div class="uk-grid uk-grid-match uk-grid-collapse" uk-grid>
+    <div class="uk-width-auto">
+        <div class="uk-padding uk-tile uk-tile-secondary uk-flex uk-flex-middle">
+            <i class="fa fa-<?php echo $this->fontAwesome_icon; ?> fa-3x fa-fw">
+            </i>
+        </div>
+    </div>
+<?php endif; ?>
+    <div <?php if ($this->fontAwesome_icon): ?>
+        class="uk-width-expand"<?php endif; ?>>
+        <div class="<?= $this->class; ?> block"<?= $this->cssID; ?><?php if ($this->style): ?>
+            style="<?= $this->style; ?>"<?php endif; ?>>
+            <?php if ($this->headline): ?>
+            <<?= $this->hl ?>><?= $this->headline ?></<?= $this->hl ?>>
+        <?php endif; ?>
+        <?php echo $this->text; ?>
+        <a href="<?= $this->href ?>" class="uk-button uk-button-default"
+           title="<?= $this->linkTitle ?>"<?= $this->attribute ?><?= $this->target ?><?= $this->rel ?>><?= $this->link ?></a>
+    </div>
+    </div>
+<?php if ($this->fontAwesome_icon): ?>
+    </div>
+<?php endif; ?>
+    </div>
+<?php if ($this->UIkit_container): ?>
+    </div>
+<?php endif; ?>
