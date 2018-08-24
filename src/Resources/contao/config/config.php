@@ -9,4 +9,4 @@
  * @copyright reluem 2018
  */
 
-$GLOBALS['TL_CTE']['media']['linkteaser'] = 'reluem\ContentLinkteaser';
+$GLOBALS['TL_CTE']['links']['linkteaser'] = 'reluem\ContentLinkteaser';
