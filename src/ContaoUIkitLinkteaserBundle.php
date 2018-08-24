@@ -1,6 +1,6 @@
 <?php
 
-namespace reluem\ContaoUIkitLinkteaserBundle;
+namespace Reluem\ContaoUIkitLinkteaserBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

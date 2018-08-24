@@ -2,7 +2,7 @@
     
     namespace Reluem\ContaoUIkitLinkteaserBundle\ContaoManager;
     
-    use Reluem\ContaoUIkitLinkteaserBundle\ContaoUIkitLinkteaserBundle;
+    use reluem\ContaoUIkitLinkteaserBundle\ContaoUIkitLinkteaserBundle;
     use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
     use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
     use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;

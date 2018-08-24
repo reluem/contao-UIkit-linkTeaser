@@ -9,7 +9,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Reluem\\ContaoUIkitLinkteaserBundle\\": "src/"
+      "reluem\\ContaoUIkitLinkteaserBundle\\": "src/"
     },
     "classmap": [
       "src/Resources/contao/"

@@ -7,7 +7,7 @@
      * @license LGPL-3.0+
      */
     
-    namespace reluem;
+    namespace Reluem;
     
     /**
      * Front end content element "ce_linkteaser".
