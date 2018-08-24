@@ -1,10 +1,10 @@
 <?php
 
-namespace Reluem\ContaoUIkitLinkteaserBundle;
+namespace Reluem\ContaoUIkitLinkTeaserBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class ContaoUIkitLinkteaserBundle extends Bundle
+class ContaoUIkitLinkTeaserBundle extends Bundle
 {
 
 }

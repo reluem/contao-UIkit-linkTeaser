@@ -1,5 +1,5 @@
 {
-  "name": "reluem/contao-UIkit-linkteaser",
+  "name": "reluem/contao-UIkit-linkTeaser",
   "type": "contao-bundle",
   "authors": [
     {
@@ -9,7 +9,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "reluem\\ContaoUIkitLinkteaserBundle\\": "src/"
+      "Reluem\\ContaoUIkitLinkTeaserBundle\\": "src/"
     },
     "classmap": [
       "src/Resources/contao/"
@@ -21,6 +21,6 @@
     ]
   },
   "extra": {
-    "contao-manager-plugin": "Reluem\\ContaoUIkitLinkteaserBundle\\ContaoManager\\Plugin"
+    "contao-manager-plugin": "Reluem\\ContaoUIkitLinkTeaserBundle\\ContaoManager\\Plugin"
   }
 }

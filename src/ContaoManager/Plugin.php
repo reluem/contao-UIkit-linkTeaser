@@ -1,8 +1,8 @@
 <?php
     
-    namespace Reluem\ContaoUIkitLinkteaserBundle\ContaoManager;
+    namespace Reluem\ContaoUIkitLinkTeaserBundle\ContaoManager;
     
-    use reluem\ContaoUIkitLinkteaserBundle\ContaoUIkitLinkteaserBundle;
+    use Reluem\ContaoUIkitLinkTeaserBundle\ContaoUIkitLinkTeaserBundle;
     use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
     use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
     use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
@@ -16,7 +16,7 @@
         public function getBundles(ParserInterface $parser)
         {
             return [
-                BundleConfig::create(ContaoUIkitLinkteaserBundle::class)
+                BundleConfig::create(ContaoUIkitLinkTeaserBundle::class)
                     ->setLoadAfter([
                         ContaoCoreBundle::class,
                         'ContaoUIkitBundle',
