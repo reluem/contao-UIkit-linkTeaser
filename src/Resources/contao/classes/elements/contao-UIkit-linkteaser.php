@@ -7,14 +7,14 @@
      * @license LGPL-3.0+
      */
     
-    namespace Reluem;
+    namespace reluem;
     
     /**
      * Front end content element "ce_linkteaser".
      *
      * @author Leo Feyer <https://github.com/leofeyer>
      */
-    class Linkteaser extends \ContentElement
+    class ContentLinkteaser extends \ContentElement
     {
         /**
          * Template
