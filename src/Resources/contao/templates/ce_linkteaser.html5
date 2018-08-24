@@ -19,7 +19,7 @@
             <<?= $this->hl ?>><?= $this->headline ?></<?= $this->hl ?>>
         <?php endif; ?>
         <?php echo $this->text; ?>
-        <a href="<?= $this->href ?>" class="uk-button uk-button-default"
+        <a href="<?= $this->href ?>" class="uk-button uk-button-default uk-text-truncate"
            title="<?= $this->linkTitle ?>"<?= $this->attribute ?><?= $this->target ?><?= $this->rel ?>><?= $this->link ?></a>
     </div>
     </div>

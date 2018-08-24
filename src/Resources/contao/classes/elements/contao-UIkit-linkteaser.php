@@ -56,7 +56,14 @@
                 $this->Template->attribute = ' data-lightbox="' . $this->rel . '"';
             }
             if ($this->linkTitle == '') {
-                $this->linkTitle = $this->url;
+                
+                if (strpos($this->url, "link_url")) {
+                    $this->linkTitle = str_replace("link_url::", "link_name::", $this->url);
+                    
+                } else {
+                    $this->linkTitle = $this->url;
+                }
+                
             }
             $this->Template->href = $this->url;
             $this->Template->embed_pre = $embed[0];
@@ -67,6 +74,7 @@
             if ($this->titleText) {
                 $this->Template->linkTitle = \StringUtil::specialchars($this->titleText);
             }
+            
             // Override the link target
             if ($this->target) {
                 $this->Template->target = ' target="_blank"';
