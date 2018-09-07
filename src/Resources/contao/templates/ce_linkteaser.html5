@@ -1,21 +1,12 @@
 <div class="uk-panel">
-    <div class="uk-grid uk-grid-match uk-grid-collapse uk-transition-toggle" uk-grid>
-        <div class="uk-width-auto">
-            <div class="uk-padding uk-tile uk-tile-secondary uk-flex uk-flex-middle">
-                <i class="fa <?php if ($this->fontAwesome_icon): ?> fa-<?php echo $this->fontAwesome_icon; ?><?php endif; ?> fa-2x fa-fw uk-transition-scale-up uk-transition-opaque">
-                </i>
-            </div>
-        </div>
-        <div class="uk-width-expand">
-            <div class="<?= $this->class; ?> block"<?= $this->cssID; ?><?php if ($this->style): ?>
-                style="<?= $this->style; ?>"<?php endif; ?>>
-                <?php if ($this->headline): ?>
-                    <h3><?= $this->headline ?></h3>
-                <?php endif; ?>
-                <?php echo $this->text; ?>
-                <a href="<?= $this->href ?>" class="uk-button uk-button-default uk-text-truncate"
-                   title="<?= $this->linkTitle ?>"<?= $this->attribute ?><?= $this->target ?><?= $this->rel ?>><?= $this->link ?></a>
-            </div>
-        </div>
+
+    <div class="<?= $this->class; ?> block"<?= $this->cssID; ?><?php if ($this->style): ?>
+        style="<?= $this->style; ?>"<?php endif; ?>>
+        <?php if ($this->headline): ?>
+            <h2 class="uk-heading-bullet"><?= $this->headline ?></h2>
+        <?php endif; ?>
+        <?php echo $this->text; ?>
+        <a href="<?= $this->href ?>" class="uk-button uk-button-default uk-text-truncate"
+           title="<?= $this->linkTitle ?>"<?= $this->attribute ?><?= $this->target ?><?= $this->rel ?>><?= $this->link ?></a>
     </div>
 </div>
