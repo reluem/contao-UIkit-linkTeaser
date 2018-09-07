@@ -66,8 +66,6 @@
                 
             }
             $this->Template->href = $this->url;
-            $this->Template->embed_pre = $embed[0];
-            $this->Template->embed_post = $embed[1];
             $this->Template->link = $this->linkTitle;
             $this->Template->target = '';
             $this->Template->rel = '';
