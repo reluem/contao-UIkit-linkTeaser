@@ -10,12 +10,12 @@
             <div class="<?= $this->class; ?> block"<?= $this->cssID; ?><?php if ($this->style): ?>
                 style="<?= $this->style; ?>"<?php endif; ?>>
                 <?php if ($this->headline): ?>
-                <<?= $this->hl ?>><?= $this->headline ?></<?= $this->hl ?>>
-            <?php endif; ?>
-            <?php echo $this->text; ?>
-            <a href="<?= $this->href ?>" class="uk-button uk-button-default uk-text-truncate"
-               title="<?= $this->linkTitle ?>"<?= $this->attribute ?><?= $this->target ?><?= $this->rel ?>><?= $this->link ?></a>
+                    <h3><?= $this->headline ?></h3>
+                <?php endif; ?>
+                <?php echo $this->text; ?>
+                <a href="<?= $this->href ?>" class="uk-button uk-button-default uk-text-truncate"
+                   title="<?= $this->linkTitle ?>"<?= $this->attribute ?><?= $this->target ?><?= $this->rel ?>><?= $this->link ?></a>
+            </div>
         </div>
     </div>
-</div>
 </div>
