@@ -1,12 +1,11 @@
-<div class="uk-panel">
-
-    <div class="<?= $this->class; ?> block"<?= $this->cssID; ?><?php if ($this->style): ?>
-        style="<?= $this->style; ?>"<?php endif; ?>>
-        <?php if ($this->headline): ?>
-            <h2 class="uk-heading-bullet"><?= $this->headline ?></h2>
-        <?php endif; ?>
-        <?php echo $this->text; ?>
+<div class="<?= $this->class; ?> block"<?= $this->cssID; ?><?php if ($this->style): ?>
+    style="<?= $this->style; ?>"<?php endif; ?>>
+    <?php if ($this->headline): ?>
+        <h2 class="uk-heading-bullet"><?= $this->headline ?></h2>
+    <?php endif; ?>
+    <?php echo $this->text; ?>
+    <?php if ($his->href): ?>
         <a href="<?= $this->href ?>" class="uk-button uk-button-default uk-text-truncate"
            title="<?= $this->linkTitle ?>"<?= $this->attribute ?><?= $this->target ?><?= $this->rel ?>><?= $this->link ?></a>
-    </div>
+    <?php endif; ?>
 </div>
